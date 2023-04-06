@@ -10,7 +10,7 @@ switch ($randomTypeId) {
         ]);
         break;
     case 3:
-        CRest::call('crm.deal.add', [
+        CRest::call('crm.contact.add', [
             'NAME' => 'buttonMake'
         ]);
         break;
