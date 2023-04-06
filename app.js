@@ -5,7 +5,7 @@ fetch(PHPScriptUrl)
         return response.text();
     })
     .then(function (body) {
-        document.body.innerHTML += body;
+        document.getElementById('aboutDeals').innerHTML += body;
     });
 
 function createEntityPHP() {
